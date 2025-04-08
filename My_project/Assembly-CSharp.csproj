@@ -68,6 +68,7 @@
     <Compile Include="Assets\scripts_proj\CameraVerticalFollow.cs" />
     <Compile Include="Assets\scripts_proj\MapGenerator.cs" />
     <Compile Include="Assets\scripts_proj\shijianCamer.cs" />
+    <Compile Include="Assets\scripts_proj\AStar.cs" />
     <Compile Include="Assets\scripts_proj\NewBehaviourScript.cs" />
     <Compile Include="Assets\scripts_proj\WASDMoveCube.cs" />
   </ItemGroup>

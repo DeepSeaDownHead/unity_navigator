@@ -358,6 +358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 917512005}
   - component: {fileID: 917512004}
+  - component: {fileID: 917512006}
   m_Layer: 0
   m_Name: MapGenerator
   m_TagString: Untagged
@@ -378,6 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roadPrefab: {fileID: 195698, guid: d9744dd3b89884314b5a0f6788afc687, type: 3}
+  highlightedRoadPrefab: {fileID: 131148, guid: 3a37927ee527e4f7e970cee659727c6d, type: 3}
   buildingPrefabs3x3:
   - {fileID: 175334, guid: 0d5d3b246e2224ae49f2d46c4c5be6c0, type: 3}
   - {fileID: 120644, guid: f685c32edd68542028bf4ac72cbfb2b3, type: 3}
@@ -388,8 +390,8 @@ MonoBehaviour:
   - {fileID: 171422, guid: 80143bd420c3841ec90b722796c8a2d0, type: 3}
   - {fileID: 119260, guid: d598f6e37afc54ff2af75c6d70cdcbc8, type: 3}
   mapParent: {fileID: 917512005}
-  mapWidth: 100
-  mapHeight: 100
+  mapWidth: 40
+  mapHeight: 40
   voronoiSiteSpacing: 25
   voronoiSiteJitter: 2
   branchNoiseScale: 60
@@ -399,6 +401,13 @@ MonoBehaviour:
   objectsPerFrame: 200
   yieldBatchSize: 500
   asyncGeneration: 0
+  travelTimeBaseCost: 1
+  trafficCongestionThreshold: 1.2
+  vehicleUpdateInterval: 15
+  hoverInfoTextElement: {fileID: 0}
+  roadLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!4 &917512005
 Transform:
   m_ObjectHideFlags: 0
@@ -414,6 +423,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &917512006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917512003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f51036625aece48bb1bf61a41b4ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,7 +460,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -473,7 +494,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -500,7 +521,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.34, y: 13.46, z: -20.77}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
