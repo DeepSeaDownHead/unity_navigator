@@ -9,19 +9,19 @@ public class WASDMoveCube : MonoBehaviour
         float horizontalInput = 0f;
         float verticalInput = 0f;
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.S))
         {
             verticalInput = -1f;
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.W))
         {
             verticalInput = 1f;
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.D))
         {
             horizontalInput = 1f;
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.A))
         {
             horizontalInput = -1f;
         }
