@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "D:\\newnew\\unity_navigator\\My_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA2CAE1C-71D8-A8AF-BC1A-D9DCB06CBC26}|Assembly-CSharp.csproj|d:\\newnew\\unity_navigator\\my_project\\assets\\scripts_proj\\wasdmovecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2CAE1C-71D8-A8AF-BC1A-D9DCB06CBC26}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_proj\\wasdmovecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2CAE1C-71D8-A8AF-BC1A-D9DCB06CBC26}|Assembly-CSharp.csproj|d:\\newnew\\unity_navigator\\my_project\\assets\\scripts_proj\\mouserotate mouserotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2CAE1C-71D8-A8AF-BC1A-D9DCB06CBC26}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_proj\\mouserotate mouserotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\NewBehaviourScript1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts_proj\\NewBehaviourScript1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraMouseRotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts_proj\\CameraMouseRotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\FreeMouseRotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts_proj\\FreeMouseRotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraPerspectiveFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts_proj\\CameraPerspectiveFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2CAE1C-71D8-A8AF-BC1A-D9DCB06CBC26}|Assembly-CSharp.csproj|D:\\newnew\\unity_navigator\\My_project\\assets\\scripts_proj\\cameraswitche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2CAE1C-71D8-A8AF-BC1A-D9DCB06CBC26}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_proj\\cameraswitche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts_proj\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraBackControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts_proj\\CameraBackControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\newnew\\unity_navigator\\My_project\\Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineVirtualCamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineVirtualCamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraMouseControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts_proj\\CameraMouseControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2CAE1C-71D8-A8AF-BC1A-D9DCB06CBC26}|Assembly-CSharp.csproj|D:\\newnew\\unity_navigator\\My_project\\assets\\scripts_proj\\wasdmovecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2CAE1C-71D8-A8AF-BC1A-D9DCB06CBC26}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_proj\\wasdmovecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,16 +66,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WASDMoveCube.cs",
-              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\WASDMoveCube.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts_proj\\WASDMoveCube.cs",
-              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\WASDMoveCube.cs",
-              "RelativeToolTip": "Assets\\scripts_proj\\WASDMoveCube.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxcAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CameraSwitche.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraSwitche.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts_proj\\CameraSwitche.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraSwitche.cs",
+              "RelativeToolTip": "Assets\\scripts_proj\\CameraSwitche.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T09:46:08.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:45:39.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CinemachineVirtualCamera.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineVirtualCamera.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineVirtualCamera.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineVirtualCamera.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineVirtualCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:44:02.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CameraMouseControl.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraMouseControl.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts_proj\\CameraMouseControl.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraMouseControl.cs",
+              "RelativeToolTip": "Assets\\scripts_proj\\CameraMouseControl.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:57:41.907Z"
             },
             {
               "$type": "Document",
@@ -51,6 +109,86 @@
               "RelativeToolTip": "Assets\\scripts_proj\\NewBehaviourScript1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T09:44:12.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraMouseRotator.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraMouseRotator.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts_proj\\CameraMouseRotator.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraMouseRotator.cs",
+              "RelativeToolTip": "Assets\\scripts_proj\\CameraMouseRotator.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T01:08:55.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MouseRotate MouseRotate.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\MouseRotate MouseRotate.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts_proj\\MouseRotate MouseRotate.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\MouseRotate MouseRotate.cs",
+              "RelativeToolTip": "Assets\\scripts_proj\\MouseRotate MouseRotate.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T01:18:35.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CameraBackControl.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraBackControl.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts_proj\\CameraBackControl.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraBackControl.cs",
+              "RelativeToolTip": "Assets\\scripts_proj\\CameraBackControl.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T15:41:14.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts_proj\\CameraFollow.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\scripts_proj\\CameraFollow.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T15:50:29.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FreeMouseRotate.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\FreeMouseRotate.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts_proj\\FreeMouseRotate.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\FreeMouseRotate.cs",
+              "RelativeToolTip": "Assets\\scripts_proj\\FreeMouseRotate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T00:59:16.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WASDMoveCube.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\WASDMoveCube.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts_proj\\WASDMoveCube.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\WASDMoveCube.cs",
+              "RelativeToolTip": "Assets\\scripts_proj\\WASDMoveCube.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T09:46:08.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CameraPerspectiveFollow.cs",
+              "DocumentMoniker": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraPerspectiveFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts_proj\\CameraPerspectiveFollow.cs",
+              "ToolTip": "D:\\newnew\\unity_navigator\\My_project\\Assets\\scripts_proj\\CameraPerspectiveFollow.cs",
+              "RelativeToolTip": "Assets\\scripts_proj\\CameraPerspectiveFollow.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:26:56.122Z"
             }
           ]
         }

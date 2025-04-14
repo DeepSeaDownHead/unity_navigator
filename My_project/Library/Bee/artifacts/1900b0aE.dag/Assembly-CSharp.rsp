@@ -360,6 +360,7 @@
 "Assets/scripts_proj/CameraVerticalFollow.cs"
 "Assets/scripts_proj/CubeStateRetrac.cs"
 "Assets/scripts_proj/MapGenerator.cs"
+"Assets/scripts_proj/MouseRotate MouseRotate.cs"
 "Assets/scripts_proj/NewBehaviourScript.cs"
 "Assets/scripts_proj/shijianCamer.cs"
 "Assets/scripts_proj/WASDMoveCube.cs"
