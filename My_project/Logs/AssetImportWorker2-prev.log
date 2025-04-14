@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/china_unity/release' branch; Version is '2022.3.55f1c1 (06b99830297d) revision 440728'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15556 MB
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16077 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\unt\2022.3.55f1c1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.55f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/myunt/unity_navigator/My_project
+D:/newnew/unity_navigator/My_project
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-9801
-Successfully changed project path to: D:/myunt/unity_navigator/My_project
-D:/myunt/unity_navigator/My_project
+56349
+Successfully changed project path to: D:/newnew/unity_navigator/My_project
+D:/newnew/unity_navigator/My_project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,79 +49,69 @@ D:/myunt/unity_navigator/My_project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31724]  Target information:
+Player connection [30892]  Target information:
 
-Player connection [31724]  * "[IP] 125.216.248.103 [Port] 0 [Flags] 2 [Guid] 770534999 [EditorId] 770534999 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PA7KPLPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30892]  * "[IP] 10.195.50.91 [Port] 0 [Flags] 2 [Guid] 1127948449 [EditorId] 1127948449 [Version] 1048832 [Id] WindowsEditor(7,demonball) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31724]  * "[IP] 192.168.129.1 [Port] 0 [Flags] 2 [Guid] 770534999 [EditorId] 770534999 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PA7KPLPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [31724]  * "[IP] 192.168.175.1 [Port] 0 [Flags] 2 [Guid] 770534999 [EditorId] 770534999 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PA7KPLPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [31724] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31724] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 19.23 ms, found 3 plugins.
+Player connection [30892] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30892] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 8.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.55f1c1 (06b99830297d)
-[Subsystems] Discovering subsystems at path D:/unt/2022.3.55f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/myunt/unity_navigator/My_project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.55f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/newnew/unity_navigator/My_project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
     Vendor:   NVIDIA
     VRAM:     7957 MB
-    Driver:   32.0.15.7283
+    Driver:   32.0.15.5613
 Initialize mono
-Mono path[0] = 'D:/unt/2022.3.55f1c1/Editor/Data/Managed'
-Mono path[1] = 'D:/unt/2022.3.55f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/unt/2022.3.55f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unt/2022.3.55f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/unt/2022.3.55f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/unt/2022.3.55f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: D:/unt/2022.3.55f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.029887 seconds.
-- Loaded All Assemblies, in  0.471 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.55f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.55f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009586 seconds.
+- Loaded All Assemblies, in  0.423 seconds
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
-Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.335 seconds
-Domain Reload Profiling: 802ms
-	BeginReloadAssembly (159ms)
+Domain Reload Profiling: 756ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (160ms)
-		LoadAssemblies (157ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (126ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (140ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (145ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
+			ResolveRequiredComponents (1ms)
 	FinalizeReload (335ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (294ms)
+		SetupLoadedEditorAssemblies (273ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (82ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (134ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -130,157 +120,52 @@ Domain Reload Profiling: 802ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.943 seconds
+- Loaded All Assemblies, in  0.694 seconds
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.621 seconds
-Domain Reload Profiling: 1556ms
-	BeginReloadAssembly (326ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (513ms)
-		LoadAssemblies (584ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (163ms)
-				TypeCache.ScanAssembly (146ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (622ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (469ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 10.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3657.
-Memory consumption went from 147.3 MB to 147.3 MB.
-Total: 3.511700 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.083500 ms MarkObjects: 3.057200 ms  DeleteObjects: 0.115300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 8192.648962 seconds.
-  path: Assets/Fantastic City Generator/Player/Player/First Person Player.prefab
-  artifactKey: Guid(aebe9e114aaacfe419defa7abd65cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Player/Player/First Person Player.prefab using Guid(aebe9e114aaacfe419defa7abd65cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '95dd486be4d645ed35778243d5bdce6a') in 0.027657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 6.810210 seconds.
-  path: Assets/Fantastic City Generator/Player/Player/CharacterControl.cs
-  artifactKey: Guid(9201e11cdabfa0348bc6bf24c4b3d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Player/Player/CharacterControl.cs using Guid(9201e11cdabfa0348bc6bf24c4b3d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4406406c39f736b602b10235ea03ac40') in 0.000731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.936288 seconds.
-  path: Assets/Fantastic City Generator/Player/Player Mobile/IMG/Knob2.png
-  artifactKey: Guid(a4e1e3a4511f9bc4f87b1f66ca12a019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Player/Player Mobile/IMG/Knob2.png using Guid(a4e1e3a4511f9bc4f87b1f66ca12a019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9abb2ed1bf11f860ff0fabe5b4f110fb') in 0.102309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.926751 seconds.
-  path: Assets/Fantastic City Generator/Player/Player Mobile/FirstPerson-Mobile.prefab
-  artifactKey: Guid(cb60fff7603490c4aa31e0cdf7733731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Player/Player Mobile/FirstPerson-Mobile.prefab using Guid(cb60fff7603490c4aa31e0cdf7733731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cd93401290f5ccf92a185af9a0419de1') in 0.003522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.859 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.407 seconds
-Domain Reload Profiling: 2248ms
-	BeginReloadAssembly (323ms)
+- Finished resetting the current domain, in  0.514 seconds
+Domain Reload Profiling: 1205ms
+	BeginReloadAssembly (174ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (413ms)
-		LoadAssemblies (616ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (325ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (1407ms)
+	FinalizeReload (515ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (504ms)
+		SetupLoadedEditorAssemblies (389ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (21ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (297ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 10.04 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.30 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3146 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.1 KB). Loaded Objects now: 3665.
-Memory consumption went from 149.1 MB to 149.1 MB.
-Total: 4.613200 ms (FindLiveObjects: 0.530800 ms CreateObjectMapping: 0.235500 ms MarkObjects: 3.778900 ms  DeleteObjects: 0.066600 ms)
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (55.0 KB). Loaded Objects now: 3628.
+Memory consumption went from 138.8 MB to 138.7 MB.
+Total: 3.426100 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.084100 ms MarkObjects: 3.025100 ms  DeleteObjects: 0.106800 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -295,426 +180,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1e1ce9a8e65c51a07e916d8a634ca73e -> 3d5f4d4103fdc93ea272c2999b9a2100
-========================================================================
-Received Import Request.
-  Time since last request: 24.703598 seconds.
-  path: Assets/Fantastic City Generator/Objects/Parkbench/FBX/Parkbench-01.fbx
-  artifactKey: Guid(cedfbfdb4b4b65f48b5cb21a3dca5d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Parkbench/FBX/Parkbench-01.fbx using Guid(cedfbfdb4b4b65f48b5cb21a3dca5d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3dca872218a423f9de9363ff863469c4') in 0.199877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.783470 seconds.
-  path: Assets/Fantastic City Generator/Objects/Parkbench/Prefab/Parkbench-01.prefab
-  artifactKey: Guid(85f56f3d36f4dd04482e67df5b41a9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Parkbench/Prefab/Parkbench-01.prefab using Guid(85f56f3d36f4dd04482e67df5b41a9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fb69ee96726544b942c4c55b3fc9dae5') in 0.040450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Fantastic City Generator/Objects/Parkbench/Prefab/Parkbench-05.prefab
-  artifactKey: Guid(264c6bc2e10047643b5e7871bfacdf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Parkbench/Prefab/Parkbench-05.prefab using Guid(264c6bc2e10047643b5e7871bfacdf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b41e7c6fe70c0509f85af25377f25c7f') in 0.032512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 14.655359 seconds.
-  path: Assets/Fantastic City Generator/HighWay/Prefab/HW-FR-400-01.prefab
-  artifactKey: Guid(677ae4439796b6e4d8b907f7b453156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/HighWay/Prefab/HW-FR-400-01.prefab using Guid(677ae4439796b6e4d8b907f7b453156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c24ae0308604f005ee462b98ee166395') in 0.045897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 258
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Fantastic City Generator/HighWay/Prefab/HW-R-300-01.prefab
-  artifactKey: Guid(f97baa9910ef7d94f902c97835df60e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/HighWay/Prefab/HW-R-300-01.prefab using Guid(f97baa9910ef7d94f902c97835df60e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '263490603175c4bea0c0055df3e8b8e1') in 0.036839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 336
-========================================================================
-Received Import Request.
-  Time since last request: 1.918766 seconds.
-  path: Assets/Fantastic City Generator/Documentation/Add third-party Buildings.pdf
-  artifactKey: Guid(487cefa61087d8b4597d67b8261503e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Documentation/Add third-party Buildings.pdf using Guid(487cefa61087d8b4597d67b8261503e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c204085437de1701fd4237dbb3879a3c') in 0.001332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 101.549017 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Border-Flat-Large.prefab
-  artifactKey: Guid(d8a594ff9e9d3c442b5d4dbc07824f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Border-Flat-Large.prefab using Guid(d8a594ff9e9d3c442b5d4dbc07824f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8e06e33837a9ab590767f4c78b5566d1') in 0.264017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6367
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Border-Mini-2.prefab
-  artifactKey: Guid(50fcb91f99527f74192f7082c0afd04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Border-Mini-2.prefab using Guid(50fcb91f99527f74192f7082c0afd04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '726c075b8965f1c1e08498db482b7418') in 0.358391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10390
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Border-Small 2.prefab
-  artifactKey: Guid(4800ed27f1e737d4b8ccebd2feeda5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Border-Small 2.prefab using Guid(4800ed27f1e737d4b8ccebd2feeda5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9f295d1810e45fbf86e81f6e62771d8b') in 0.144785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1935
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Border-Flat-Small-Exit.prefab
-  artifactKey: Guid(4b2e211a3d479e6408a0350e52ec0848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Border-Flat-Small-Exit.prefab using Guid(4b2e211a3d479e6408a0350e52ec0848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '785d7b649ebcd96be51e954bb31d6fca') in 0.170214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2467
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Double-Block-01-C.prefab
-  artifactKey: Guid(d858c2ed0ec97e04294ca880911a8468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Double-Block-01-C.prefab using Guid(d858c2ed0ec97e04294ca880911a8468) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '528a43a693c7c11f6ab68f48d38c08c4') in 0.470012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18390
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Border-Flat-Medium.prefab
-  artifactKey: Guid(92cab2db9286a7441b36318a144e735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Border-Flat-Medium.prefab using Guid(92cab2db9286a7441b36318a144e735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '28b1ecfef3dc9a8e79bb1006a4da2ff1') in 0.140955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2475
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Border-Large.prefab
-  artifactKey: Guid(d7391e6a6b3847e49967a5cb56297847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Border-Large.prefab using Guid(d7391e6a6b3847e49967a5cb56297847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a7b29519f1d850d196cbcb8ada03b397') in 0.248030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6528
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Double-Block-02-B.prefab
-  artifactKey: Guid(e501d1df6e06e7b408c8f9108b70bf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Double-Block-02-B.prefab using Guid(e501d1df6e06e7b408c8f9108b70bf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '58af64c31797bc34fef33c0407cec24c') in 0.425313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13927
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Border-Large-2.prefab
-  artifactKey: Guid(1169548205858d6408f86683058b1370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Border-Large-2.prefab using Guid(1169548205858d6408f86683058b1370) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '413c80542c2a6ca4f5c0535037b1c532') in 0.289725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6732
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Border-Small.prefab
-  artifactKey: Guid(bf5c5aa4dce751d4cb5abd0e11679a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Border-Small.prefab using Guid(bf5c5aa4dce751d4cb5abd0e11679a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f4651dbf103f405984417e5cf8e122ad') in 0.129129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1908
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Double-Block-03.prefab
-  artifactKey: Guid(dc7c13c0976e1c24daf61383d0d6937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Double-Block-03.prefab using Guid(dc7c13c0976e1c24daf61383d0d6937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd0218637da0ee56b659f5d1258da6d94') in 0.320881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16418
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Fantastic City Generator/Roads/Prefab/Border-Mini.prefab
-  artifactKey: Guid(3da12b6a29f70304097ef3fa869758fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Roads/Prefab/Border-Mini.prefab using Guid(3da12b6a29f70304097ef3fa869758fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '00ae9d4fdca0d4132b2a22e0f15986f2') in 0.239976 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10292
-========================================================================
-Received Import Request.
-  Time since last request: 59.441264 seconds.
-  path: Assets/Fantastic City Generator/BackGrounds/_Background 2.prefab
-  artifactKey: Guid(a539366300d0c264f97e26a432b7f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/BackGrounds/_Background 2.prefab using Guid(a539366300d0c264f97e26a432b7f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '03af26ad9b7d950cf934b1275e2bf1ca') in 0.012007 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 97.633058 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-01b.fbx
-  artifactKey: Guid(5286fb85f6cb4b043aafd72a4aabbc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-01b.fbx using Guid(5286fb85f6cb4b043aafd72a4aabbc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9654d0eaafd489dcf693a97debcbbb8b') in 0.032956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.003890 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-02.fbx
-  artifactKey: Guid(500f0433604227541b0fe40b82425bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-02.fbx using Guid(500f0433604227541b0fe40b82425bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '23f2e27fb0ec9a7122ee9054b9a66086') in 0.045779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-05.fbx
-  artifactKey: Guid(05b93a9a7f2f6ee4d86a56b2a22e706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-05.fbx using Guid(05b93a9a7f2f6ee4d86a56b2a22e706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8d4fc6c168aa3724c028da603848157b') in 0.035207 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Fwater-01.fbx
-  artifactKey: Guid(ac29704a7ff96704abc29981a3ffecc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Fwater-01.fbx using Guid(ac29704a7ff96704abc29981a3ffecc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b5a5f3de9e67b770c4356dfa3fb350e7') in 0.033664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Garden-03.fbx
-  artifactKey: Guid(ca8909f5d67e89e4e942a7a35a8c3c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Garden-03.fbx using Guid(ca8909f5d67e89e4e942a7a35a8c3c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7e1caa0e6cb7b17e062e839021a31694') in 0.054858 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-08.fbx
-  artifactKey: Guid(d9858ad513e7ddc4a83ebbea81bd8a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-08.fbx using Guid(d9858ad513e7ddc4a83ebbea81bd8a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b609f7c9e6dcc84decc4a54f6a58e5b5') in 0.033474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-07.fbx
-  artifactKey: Guid(fd764d7ff467f8a47bf0105bd3bdb236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-07.fbx using Guid(fd764d7ff467f8a47bf0105bd3bdb236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b1a886224f42a141d52d307dee231824') in 0.036706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-04.fbx
-  artifactKey: Guid(85f94eabd7ac7a64da0d9ef2c24dfbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-04.fbx using Guid(85f94eabd7ac7a64da0d9ef2c24dfbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5581b67fe0d3cbe4c57bae9c773c474b') in 0.031175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-04m.fbx
-  artifactKey: Guid(75c1dd135e2d0bd4a946c3aeb9d68292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-04m.fbx using Guid(75c1dd135e2d0bd4a946c3aeb9d68292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '650d8f5903e91fcacc4741a1ebb4887c') in 0.039794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-07g.fbx
-  artifactKey: Guid(d5655119137e0fd45910d337de2f5ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-07g.fbx using Guid(d5655119137e0fd45910d337de2f5ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a24b7ea72beacb04ca76eaabfc4a63fa') in 0.037159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-07r.fbx
-  artifactKey: Guid(2e6d8357c9836f341b852fb70769e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-07r.fbx using Guid(2e6d8357c9836f341b852fb70769e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0e34ef23682ec34696e1d2e85d8a788e') in 0.033014 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-Vase.fbx
-  artifactKey: Guid(36ef587e7605673499e6e38e3b8ce5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Flowerbed-Vase.fbx using Guid(36ef587e7605673499e6e38e3b8ce5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9d77d53a4a285977064cf7eb1b770c7c') in 0.038809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Garden-02.fbx
-  artifactKey: Guid(d537a5bfd5180e5468e39fabd587f396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Flowerbed/FBX/Garden-02.fbx using Guid(d537a5bfd5180e5468e39fabd587f396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '58a29098b775929095fa7d1560fe55b8') in 0.057798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 46.781037 seconds.
-  path: Assets/Fantastic City Generator/Objects/Signs/FBX/ExtrutureMetalic.fbx
-  artifactKey: Guid(e0b043916777e59408f027ffaec58715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Signs/FBX/ExtrutureMetalic.fbx using Guid(e0b043916777e59408f027ffaec58715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '279adea13214c1a6cd5b90f9c7165dfc') in 0.051817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Fantastic City Generator/Objects/Signs/FBX/Oneway-Right.fbx
-  artifactKey: Guid(374313f9e28e3a04b8539e75b2fb12d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Signs/FBX/Oneway-Right.fbx using Guid(374313f9e28e3a04b8539e75b2fb12d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a5fd4f123e29d1ce799fe128259c453b') in 0.040881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantastic City Generator/Objects/Signs/FBX/RoadMarks.fbx
-  artifactKey: Guid(51a6ffa513bc56647a16154fe1248ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Signs/FBX/RoadMarks.fbx using Guid(51a6ffa513bc56647a16154fe1248ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '012ee2f0f91070c99d187c8534b08abb') in 0.062544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 0.410426 seconds.
-  path: Assets/Fantastic City Generator/Objects/Signs/Prefab/Arrow-FL.prefab
-  artifactKey: Guid(675e687128a697a4297f9b50153b9952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Signs/Prefab/Arrow-FL.prefab using Guid(675e687128a697a4297f9b50153b9952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b5fc12dd93811977cf41f259cc8e725f') in 0.010624 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Fantastic City Generator/Objects/Signs/Prefab/Bus Stop.prefab
-  artifactKey: Guid(43224fa894071bb438b852c84247b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Signs/Prefab/Bus Stop.prefab using Guid(43224fa894071bb438b852c84247b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'eab9edcc46a67f1f2a310856e0d7c30d') in 0.010836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Fantastic City Generator/Objects/Signs/Prefab/oneway.prefab
-  artifactKey: Guid(43e0fee1ba1fae14f91d1b42bcb98329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantastic City Generator/Objects/Signs/Prefab/oneway.prefab using Guid(43e0fee1ba1fae14f91d1b42bcb98329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b896428a358de339c1674458205e3363') in 0.037271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
