@@ -3,11 +3,12 @@ using UnityEngine;
 
 public class CameraSwitcher : MonoBehaviour
 {
-    public CinemachineVirtualCamera cameraHead;    // ÕýÉÏ·½ÊÓ½Ç
-    public CinemachineVirtualCamera cameraBack;    // Ð±ºó·½ÊÓ½Ç
+    public CinemachineVirtualCamera cameraHead;    // ï¿½ï¿½ï¿½Ï·ï¿½ï¿½Ó½ï¿½
+    public CinemachineVirtualCamera cameraBack;    // Ð±ï¿½ï¿½ï¿½Ó½ï¿½
     private bool isUsingHeadView = true;
-    public float blendTime = 0.5f;                // »ù´¡¹ý¶ÉÊ±¼ä
-    public float rotationSmoothTime = 0.8f;       // Ðý×ªÆ½»¬Ê±¼ä
+    public float blendTime = 0.5f;                // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+    public float rotationSmoothTime = 0.8f;       // ï¿½ï¿½×ªÆ½ï¿½ï¿½Ê±ï¿½ï¿½
+    public GameObject miniMap = GameObject.find("MiniMap"); // ï¿½ï¿½ï¿½Ó½ï¿½
 
     void Start()
     {
@@ -35,17 +36,19 @@ public class CameraSwitcher : MonoBehaviour
                 cameraHead.Priority = 0;
                 cameraBack.Priority = 10;
                 isUsingHeadView = false;
+                miniMap.SetActive(true); // ï¿½ï¿½ï¿½Ó½ï¿½
             }
             else
             {
                 cameraBack.Priority = 0;
                 cameraHead.Priority = 10;
                 isUsingHeadView = true;
+                miniMap.SetActive(false); // ï¿½ï¿½ï¿½Ó½ï¿½
             }
         }
     }
 
-    // ÅäÖÃÏà»úÐý×ªÆ½»¬
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªÆ½ï¿½ï¿½
     private void SetupCameraSmoothing(CinemachineVirtualCamera vcam)
     {
         
