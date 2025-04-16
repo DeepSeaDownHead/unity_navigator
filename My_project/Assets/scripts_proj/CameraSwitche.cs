@@ -8,7 +8,7 @@ public class CameraSwitcher : MonoBehaviour
     private bool isUsingHeadView = true;
     public float blendTime = 0.5f;                // ��������ʱ��
     public float rotationSmoothTime = 0.8f;       // ��תƽ��ʱ��
-    public GameObject miniMap = GameObject.find("MiniMap"); // ���ӽ�
+    public GameObject miniMap = GameObject.Find("MiniMap");
 
     void Start()
     {
@@ -25,6 +25,8 @@ public class CameraSwitcher : MonoBehaviour
         
         SetupCameraSmoothing(cameraHead);
         SetupCameraSmoothing(cameraBack);
+
+        miniMap.SetActive(false);
     }
 
     void Update()
