@@ -3,16 +3,18 @@ using UnityEngine;
 
 public class CameraSwitcher : MonoBehaviour
 {
-    public CinemachineVirtualCamera cameraHead;    // ���Ϸ��ӽ�
-    public CinemachineVirtualCamera cameraBack;    // б���ӽ�
+    public CinemachineVirtualCamera cameraHead;    // 游戏视角相机
+    public CinemachineVirtualCamera cameraBack;    // 背后视角相机
     private bool isUsingHeadView = true;
-    public float blendTime = 0.5f;                // ��������ʱ��
-    public float rotationSmoothTime = 0.8f;       // ��תƽ��ʱ��
-    public GameObject miniMap = GameObject.Find("MiniMap");
+    public float blendTime = 0.5f;                // 相机切换时间
+    public float rotationSmoothTime = 0.8f;       // 旋转平滑时间
+    public GameObject miniMap;
 
     void Start()
     {
-        
+        // 查找 MiniMap 游戏对象
+        miniMap = GameObject.Find("MiniMap");
+
         CinemachineBrain brain = Camera.main.GetComponent<CinemachineBrain>();
         if (brain != null)
         {
@@ -22,11 +24,14 @@ public class CameraSwitcher : MonoBehaviour
             );
         }
 
-        
+        // 设置相机平滑
         SetupCameraSmoothing(cameraHead);
         SetupCameraSmoothing(cameraBack);
 
-        miniMap.SetActive(false);
+        if (miniMap != null)
+        {
+            miniMap.SetActive(false);
+        }
     }
 
     void Update()
@@ -38,30 +43,36 @@ public class CameraSwitcher : MonoBehaviour
                 cameraHead.Priority = 0;
                 cameraBack.Priority = 10;
                 isUsingHeadView = false;
-                miniMap.SetActive(true); // ���ӽ�
+                if (miniMap != null)
+                {
+                    miniMap.SetActive(true); // 显示小地图
+                }
             }
             else
             {
                 cameraBack.Priority = 0;
                 cameraHead.Priority = 10;
                 isUsingHeadView = true;
-                miniMap.SetActive(false); // ���ӽ�
+                if (miniMap != null)
+                {
+                    miniMap.SetActive(false); // 隐藏小地图
+                }
             }
         }
     }
 
-    // ���������תƽ��
+    // 设置相机旋转平滑
     private void SetupCameraSmoothing(CinemachineVirtualCamera vcam)
     {
-        
+        // 获取 CinemachineOrbitalTransposer 组件
         var orbitalTransposer = vcam.GetCinemachineComponent<CinemachineOrbitalTransposer>();
         if (orbitalTransposer != null)
         {
-            orbitalTransposer.m_XAxis.m_MaxSpeed = 0f; 
+            orbitalTransposer.m_XAxis.m_MaxSpeed = 0f;
             orbitalTransposer.m_RecenterToTargetHeading.m_RecenteringTime = rotationSmoothTime;
         }
 
-        //
+        // 获取 CinemachineTransposer 组件
         var transposer = vcam.GetCinemachineComponent<CinemachineTransposer>();
         if (transposer != null)
         {

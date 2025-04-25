@@ -1,7 +1,7 @@
 using Cinemachine;
 using UnityEngine;
 
-public class FreeLookMouseRotate : MonoBehaviour
+public class MouseRotate : MonoBehaviour
 {
     [Header("相机配置")]
     public CinemachineVirtualCamera targetCamera;
@@ -9,6 +9,7 @@ public class FreeLookMouseRotate : MonoBehaviour
     [Header("旋转设置")]
     public float mouseSensitivity = 2.0f;
     public Vector2 horizontalClamp = new Vector2(-180, 180);
+    public Vector2 verticalClamp = new Vector2(10, 80); // 新增：垂直旋转角度范围
     public float smoothTime = 0.1f;
 
     [Header("模式控制")]
@@ -19,6 +20,9 @@ public class FreeLookMouseRotate : MonoBehaviour
     private float targetRotationY;
     private float currentRotationY;
     private float rotationVelocityY;
+    private float targetRotationX; // 新增：目标垂直旋转角度
+    private float currentRotationX; // 新增：当前垂直旋转角度
+    private float rotationVelocityX; // 新增：垂直旋转速度
     private bool isMouseControlActive = false;
     private bool isKeyPressed = false;
 
@@ -35,8 +39,10 @@ public class FreeLookMouseRotate : MonoBehaviour
         // 设置初始水平旋转值
         targetRotationY = -35;
         currentRotationY = targetRotationY;
-        // 固定垂直方向旋转为70
-        cameraTransform.rotation = Quaternion.Euler(70, targetRotationY, 0);
+        // 设置初始垂直旋转值
+        targetRotationX = 70;
+        currentRotationX = targetRotationX;
+        cameraTransform.rotation = Quaternion.Euler(targetRotationX, targetRotationY, 0);
 
         // 初始状态为关闭
         SetMouseControlMode(false);
@@ -69,15 +75,20 @@ public class FreeLookMouseRotate : MonoBehaviour
         if (!isKeyPressed)
         {
             float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
+            float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
             targetRotationY += mouseX;
             targetRotationY = Mathf.Clamp(targetRotationY, horizontalClamp.x, horizontalClamp.y);
 
-            currentRotationY = Mathf.SmoothDampAngle(currentRotationY, targetRotationY, ref rotationVelocityY, smoothTime);
-            // 保持垂直方向70不变，只更新水平旋转
-            cameraTransform.rotation = Quaternion.Euler(70, currentRotationY, 0);
+            targetRotationX -= mouseY; // 垂直旋转输入处理
+            targetRotationX = Mathf.Clamp(targetRotationX, verticalClamp.x, verticalClamp.y);
 
-            Debug.Log($"水平旋转角度: {currentRotationY}");
+            currentRotationY = Mathf.SmoothDampAngle(currentRotationY, targetRotationY, ref rotationVelocityY, smoothTime);
+            currentRotationX = Mathf.SmoothDampAngle(currentRotationX, targetRotationX, ref rotationVelocityX, smoothTime);
+
+            cameraTransform.rotation = Quaternion.Euler(currentRotationX, currentRotationY, 0);
+
+            Debug.Log($"水平旋转角度: {currentRotationY}, 垂直旋转角度: {currentRotationX}");
         }
     }
 

@@ -363,6 +363,7 @@ MonoBehaviour:
   targetCamera: {fileID: 497677811}
   mouseSensitivity: 0.3
   horizontalClamp: {x: -45, y: 45}
+  verticalClamp: {x: 50.71, y: 98.01}
   smoothTime: 0.1
   enterModeKey: 98
   exitModeKey: 27
