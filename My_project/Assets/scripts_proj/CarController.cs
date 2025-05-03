@@ -38,8 +38,6 @@ public class CarController : MonoBehaviour
     {
         if (carToControl == null) { Debug.LogError("CarController: 未指定要控制的小车!", this); this.enabled = false; return; }
         if (mapGenerator == null) { Debug.LogError("CarController: 未指定 MapGenerator!", this); this.enabled = false; return; }
-
-        if (placementController != null) { carYOffset = placementController.GetCarPlacementYOffset(); }
         else { Debug.LogWarning("CarController: 未设置 CarPlacementController 引用。使用默认 Y 偏移。", this); }
 
         // 获取并缓存小车碰撞体
